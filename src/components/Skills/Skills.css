@@ -1,0 +1,15 @@
+
+.skillset {
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 20px;
+    background: #AAC4FF;
+    border-radius: 13px;
+    box-shadow: 10px 10px 10px rgb(232, 232, 232);
+}
+
+.skill-icon {
+    font-size: 30px;
+    color: crimson;
+}

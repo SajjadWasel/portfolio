@@ -1,0 +1,15 @@
+.page-container {
+    background: #EEF1FF;
+    /* height: 100px; */
+    padding-bottom: 100px;
+}
+
+.coded-heading {
+    padding: 10px;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(85, 150, 255);
+}

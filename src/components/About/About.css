@@ -1,0 +1,28 @@
+.aboutme p {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(121, 121, 121);
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.aboutme {
+    background: #D2DAFF;
+    margin: 7%;
+    border-radius: 20px;
+    padding-bottom: 5%;
+    padding-top: 2px;
+    box-shadow: 10px 10px 100px #D2DAFF;
+    margin-top: 20%;
+}
+
+.aboutme .cards div {
+    background-color: #ecf0ff;
+    border-radius: 10px;
+}
+
+.aboutme .btn-about a {
+    color: white;
+    text-decoration: none;
+}

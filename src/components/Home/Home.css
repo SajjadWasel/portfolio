@@ -1,0 +1,92 @@
+.top-banner {
+    background-color: #EEF1FF;
+}
+
+.top-banner h1 {
+    padding: 10px;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.top-banner h1 span {
+    color: rgb(85, 150, 255);
+}
+
+
+.top-banner p {
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+.top-banner img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-media {
+    position: fixed;
+    right: 0;
+    /* Aligns the container to the right side of the screen */
+    top: 50%;
+    /* Centers the container vertically */
+    transform: translateY(-50%);
+    /* Adjust centering */
+    width: 70px;
+    /* Set the width */
+    height: 300px;
+    /* Set the height */
+    background-color: #f8f9fa;
+    /* Light gray background */
+    border-radius: 8px 0 0 8px;
+    /* Rounded edges on the left */
+    box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    z-index: 1000;
+    /* Ensures it floats above other elements */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* Even spacing between icons */
+    align-items: center;
+    /* Center icons horizontally */
+    padding: 10px 0;
+}
+
+.social-icon {
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.social-icon:hover {
+    color: #007bff;
+    /* Bootstrap primary color on hover */
+    transform: scale(1.2);
+    /* Slight zoom effect */
+}
+
+.about-me-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .top-banner h1 {
+        font-size: 2rem;
+    }
+
+    .top-banner img {
+        margin-top: 2rem;
+    }
+
+    .top-banner .social-media {
+        width: 40px;
+        display: none;
+        margin: none;
+    }
+}
